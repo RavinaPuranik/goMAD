@@ -1,0 +1,87 @@
+
+.dropbtn {
+    background-color:black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:170px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: scroll;
+height: 200px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:black;color:white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:black;
+    color:white;
+}
+.swachh{
+ padding-top:140px;
+ padding-left:250px;
+}
+.container{
+    width:1500px;
+    height:90px;
+    padding-top:25px;
+    padding-left:350px;
+}
+.why{
+    padding-top:20px;
+    font-size:60px;
+    font-weight:600;
+    text-align:right;
+    padding-right:20px;
+    
+    
+}
+    
+.mySlides {
+    display:none;
+    padding-top:108px;
+    
+}    
+input[type=submit]{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color:black;
+    color:white;
+    font-weight:800;
+    height:40px;
+    width:150px;
+    border:2px solid white;
+    border-radius:25px;
+    font-size:15px;
+}
+
+input[type=submit]:hover {
+    background-color:white;
+    color: black;}
+

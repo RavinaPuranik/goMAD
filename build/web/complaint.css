@@ -1,0 +1,142 @@
+
+
+.vertical-menu {
+    width: 300px;
+    padding-top:143px;
+ 
+}
+
+.vertical-menu a {
+    
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#menuwrapper ul, #menuwrapper ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    background-color:lightgrey;
+    width:300px;
+    display:block;
+    
+    
+}
+li{
+    height:46.7px;
+}
+/* We apply background color and border bottom white and width to 150px */
+#menuwrapper ul li{
+    
+    border-bottom:solid 1px white;
+    
+    cursor:pointer;
+}
+
+/* We apply the background hover color when user hover the mouse over of the li component */
+#menuwrapper ul li:hover{
+    background-color:grey;
+    color:white;
+    position:relative;
+}
+
+/* We apply the link style */
+#menuwrapper  ul li a{
+    padding:5px 15px;
+    color:black;
+    display:inline-block;
+    text-decoration:none;
+}
+
+/**** SECOND LEVEL MENU ****/
+/* We make the position to absolute for flyout menu and hidden the ul until the user hover the parent li item */
+#menuwrapper ul li ul{
+    position:absolute;
+    display:none;
+    color:white;
+}
+
+/* When user has hovered the li item, we show the ul list by applying display:block, note: 150px is the individual menu width.  */
+#menuwrapper ul li:hover ul{
+    color:white;
+    left:300px;
+    top:0px;
+    display:block;
+    background-color:grey;
+    
+}
+
+/* we apply different background color to 2nd level menu items*/
+#menuwrapper ul li ul li{
+    background-color:grey;
+    color:white;
+    
+}
+
+/* We change the background color for the level 2 submenu when hovering the menu */
+#menuwrapper ul li:hover ul li:hover{
+    background-color:grey;
+    color:white;
+}
+
+/* We style the color of level 2 links */
+#menuwrapper ul li ul li a{
+    color:white;;
+    display:inline-block;
+  
+}
+
+.rai{background-color:lightyellow;
+    color:black;
+    width:100%;
+    text-align: center;
+ margin-right:21%;
+    
+padding:50px;
+line-height: 50px;
+}
+select{
+    background-color:whitesmoke;
+    border:1px solid black;
+   font-size: 15px;
+   
+   padding: 5px 5px;
+   width: 250px;
+   height:35px;
+   
+}
+input[type=submit],input[type=button]{
+    transition-duration: 0.4s;
+    background-color:orange;
+    color:black;
+    font-weight:600;
+    height:40px;
+    width:150px;
+    border:0px solid white;
+    border-radius:25px;
+    font-size:15px;
+}
+input[type=submit]:hover{
+    color:white;
+    
+}
+
+input[type=button]:hover{
+    color:white;
+    
+}
+
+/* Clear float */
+.clear{
+    clear:both;}
