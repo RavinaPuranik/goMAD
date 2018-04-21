@@ -33,8 +33,8 @@ public class forgotpassword extends HttpServlet {
             response.setContentType("text/html;charset=UTF-8");
            PrintWriter out = response.getWriter();
                  //pass:shreyaravina
-    final String from="gomad271@gmail.com";
-    final String pass="shreyaravina";
+    final String from="<mail_id>";
+    final String pass="<password>";
     String sub="Password Recovery";
     String email=request.getParameter("email");
     String to=email; 
