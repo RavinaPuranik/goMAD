@@ -32,9 +32,9 @@ public class StrayCattleMail extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            String to="authority271@gmail.com";  //pass:shreyaravina
-final String from="gomad271@gmail.com";
-final String pass="shreyaravina";
+            String to="<mail_id>";  
+final String from="<mail_id>";
+final String pass="<password>";
 String sub="Complaint regarding Stray Cattles/Dogs";
 String pdesc=request.getParameter("pdesc");
 String states=request.getParameter("states");
